@@ -6,4 +6,4 @@ docker run -d -p 389:389 \
 --env LDAP_ADMIN_PASSWORD="1qaz@WSX" \
 --name openldap-server \
 --restart=always \
---detach osixia/openldap
+osixia/openldap
